@@ -1,3 +1,6 @@
+/*David Alejandro Martínez Vega L´Englisse
+practica 10 ejercicio 1a.c*/
+
 #include<stdio.h>
 int main()
 {
@@ -6,10 +9,11 @@ int main()
  printf("Imprimir Matriz\n");
  for (i=0 ; i<3 ; i++) //Representa al renglón del arreglo
  {
- for (j=0 ; j<3 ; j++)//Representa a la columna del arreglo
- {
- printf("%d, ",matriz[i][j]);
+  for (j=0 ; j<3 ; j++)//Representa a la columna del arreglo
+  {
+   printf("%d, ",matriz[i][j]);
+  }
+   printf("\n");
  }
- printf("\n");
- }
- 
+ return 0;
+}
